@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
   QList<QString> messages;
   in >> messages;
 
-  qDebug() << "Read data from a file: " << msg;
+  qDebug() << "Read data from a file: " << messages;
 
   for (const QString &msg : messages) 
   {
